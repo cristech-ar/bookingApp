@@ -1,0 +1,20 @@
+{
+  "name": "bookingapp",
+  "version": "1.0.0",
+  "description": "Demo Application for restaurant´s booking ",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "author": "Cristian Ríos",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "compress": "^0.99.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.2.4"
+  }
+}
