@@ -3,6 +3,17 @@ const router = express.Router();
 
 const BookingController = require('../db/bookingStore');
 
+/**
+ * @openapi
+ * /list:
+ *  get:
+ *    summary: Use to request all bookings
+ *    responses:
+ *      '200':
+ *        description: A successful response
+ *      '500':
+ *        description: An error occurred
+ */
 router.get('/list', async (req,res)=>{
     const date = new Date().toISOString().slice(0,10);
     console.log(date);
